@@ -72,7 +72,9 @@ def createPage():
    
 
     # Inserindo informações de contatos na segunda coluna
-    with colundhead:
+      with colundhead:
+        st.header("Bulk Meta Tags Creator")
+    with colundhead2:
         st.header("Bulk Meta Tags Creator")
         
     with st.expander('ℹ️ - About the App'):
