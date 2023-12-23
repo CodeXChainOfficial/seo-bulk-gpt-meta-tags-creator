@@ -74,7 +74,7 @@ def createPage():
 
     # Inserindo informações de contatos na segunda coluna
     with colundhead2:
-        st.header("Bulk Meta Tags Creator")
+        st.header("CodeX SEO Builder")
         
     with st.expander('ℹ️ - About the App'):
         st.markdown("""
