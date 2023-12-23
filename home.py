@@ -17,7 +17,6 @@ st.markdown('<style>' + open('./style.css').read() + '</style>', unsafe_allow_ht
 with st.sidebar:    
     menu = sac.menu([
         sac.MenuItem('Bulk Meta', icon='google'),
-        sac.MenuItem('About Me', icon='file-person-fill',),
     ], index=0, format_func='upper', size='middle', indent=30, open_index=None, open_all=True, return_index=False)
            
 if menu == 'Bulk Meta':
