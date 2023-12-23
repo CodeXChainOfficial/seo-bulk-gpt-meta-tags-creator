@@ -23,5 +23,4 @@ with st.sidebar:
 if menu == 'Bulk Meta':
     bulk_meta.createPage()
    
-elif menu == 'About Me':
-    about.createPage()
+
