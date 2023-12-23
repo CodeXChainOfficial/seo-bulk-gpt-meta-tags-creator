@@ -69,11 +69,10 @@ def createPage():
     colunhead, colundhead2 = st.columns([0.06, 0.99])
     
     # Inserindo animação na primeira coluna
-   
+    with colunhead:
+        st.image(fc.open_image("./assets/robozin2.png"))
 
     # Inserindo informações de contatos na segunda coluna
-      with colundhead:
-        st.header("Bulk Meta Tags Creator")
     with colundhead2:
         st.header("Bulk Meta Tags Creator")
         
