@@ -11,6 +11,8 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state='collapsed',
 )
+if menu == 'Bulk Meta':
+    bulk_meta.createPage()
 
 st.markdown('<style>' + open('./style.css').read() + '</style>', unsafe_allow_html=True)
 
