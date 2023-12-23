@@ -70,7 +70,6 @@ def createPage():
     
     # Inserindo animação na primeira coluna
     with colunhead:
-        st.image(fc.open_image("./assets/robozin2.png"))
 
     # Inserindo informações de contatos na segunda coluna
     with colundhead2:
