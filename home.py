@@ -7,7 +7,7 @@ favicon = Image.open("./assets/favicon.png")
 
 st.set_page_config(
     page_title="Bulk Meta Tags Creator",
-    page_icon=favicon,
+
     layout="wide",
     initial_sidebar_state='collapsed',
 )
