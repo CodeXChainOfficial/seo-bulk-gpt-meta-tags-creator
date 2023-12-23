@@ -74,8 +74,7 @@ def createPage():
 
     # Inserindo informações de contatos na segunda coluna
     with colundhead2:
-        st.header("Bulk Meta Tags Creator")
-        st.markdown('<p class="minha-classe">By <a href="https://viniciusstanula.com/en/">Vinicius Stanula</a>, made in Streamlit 🎈</p>', unsafe_allow_html=True)
+        st.header("CodeX SEO Builder")
         
     with st.expander('ℹ️ - About the App'):
         st.markdown("""
