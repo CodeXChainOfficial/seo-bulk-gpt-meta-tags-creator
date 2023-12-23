@@ -69,11 +69,11 @@ def createPage():
     colunhead, colundhead2 = st.columns([0.06, 0.99])
     
     # Inserindo animação na primeira coluna
-    with colunhead:
+   
 
     # Inserindo informações de contatos na segunda coluna
-    with colundhead2:
-        st.header("CodeX SEO Builder")
+    with colundhead:
+        st.header("Bulk Meta Tags Creator")
         
     with st.expander('ℹ️ - About the App'):
         st.markdown("""
